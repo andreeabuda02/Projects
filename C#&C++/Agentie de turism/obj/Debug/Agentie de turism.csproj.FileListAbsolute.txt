@@ -1,0 +1,89 @@
+D:\CSharp\Agentie de turism\Agentie de turism\bin\Debug\Database1.mdf
+D:\CSharp\Agentie de turism\Agentie de turism\bin\Debug\Database1_log.ldf
+D:\CSharp\Agentie de turism\Agentie de turism\bin\Debug\Agentie de turism.exe.config
+D:\CSharp\Agentie de turism\Agentie de turism\bin\Debug\Agentie de turism.exe
+D:\CSharp\Agentie de turism\Agentie de turism\bin\Debug\Agentie de turism.pdb
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.csprojAssemblyReference.cache
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Form1.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Properties.Resources.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.csproj.GenerateResource.cache
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.csproj.CoreCompileInputs.cache
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.exe
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.pdb
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Adaugare.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Vizitator.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Europa.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.DetaliiCont.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.ConectareANDInregistrare.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\bin\Debug\Database1.mdf
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\bin\Debug\Database1_log.ldf
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\bin\Debug\Agentie de turism.exe.config
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\bin\Debug\Agentie de turism.exe
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\bin\Debug\Agentie de turism.pdb
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.csprojAssemblyReference.cache
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Adaugare.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.ConectareANDInregistrare.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.DetaliiCont.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Europa.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Form1.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Properties.Resources.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Vizitator.resources
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.csproj.GenerateResource.cache
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.csproj.CoreCompileInputs.cache
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.exe
+C:\Users\Matei\Downloads\Archive-f98e\Agentie de turism\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.pdb
+D:\CSharp\Agentie de turism\Agentie de turism\bin\Debug\System.Data.SqlClient.dll
+D:\CSharp\Agentie de turism\Agentie de turism\bin\Debug\System.Data.SqlClient.xml
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie de turism.csproj.CopyComplete
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Romania.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Rezervare.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Albania.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Andorra.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Austria.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Belarus.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Belgia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.BosniaHertegovina.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Bulgaria.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Cipru.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Croatia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Danemarca.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Elvetia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Estonia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Finlanda.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Franta.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Germania.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Grecia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Irlanda.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Islanda.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Italia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Kosovo.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Letonia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Liechtenstein.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Lituania.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Luxemburg.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Macedonia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Malta.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Monaco.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Muntenegru.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Norvegia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Olanda.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Polonia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Portugalia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.RegatulUnit.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.RepCeha.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.RepMoldova.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Rusia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.SanMarino.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Serbia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Slovacia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Slovenia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Spania.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Suedia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Ucraina.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Ungaria.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Vatican.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Africa.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.America_de_Nord.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.America_de_Sud.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Asia.resources
+D:\CSharp\Agentie de turism\Agentie de turism\obj\Debug\Agentie_de_turism.Australia.resources

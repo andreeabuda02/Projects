@@ -1,0 +1,1077 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD9B1CDF-10D9-45CC-8A5D-2F534CA14FFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Agentie_de_turism</RootNamespace>
+    <AssemblyName>Agentie de turism</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.2\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Continente\Africa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continente\Africa.Designer.cs">
+      <DependentUpon>Africa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Continente\America_de_Nord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continente\America_de_Nord.Designer.cs">
+      <DependentUpon>America_de_Nord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Continente\America_de_Sud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continente\America_de_Sud.Designer.cs">
+      <DependentUpon>America_de_Sud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Continente\Asia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continente\Asia.Designer.cs">
+      <DependentUpon>Asia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Continente\Australia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continente\Australia.Designer.cs">
+      <DependentUpon>Australia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Andorra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Andorra.Designer.cs">
+      <DependentUpon>Andorra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Austria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Austria.Designer.cs">
+      <DependentUpon>Austria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Belgia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Belgia.Designer.cs">
+      <DependentUpon>Belgia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Danemarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Danemarca.Designer.cs">
+      <DependentUpon>Danemarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Elvetia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Elvetia.Designer.cs">
+      <DependentUpon>Elvetia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Albania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Albania.Designer.cs">
+      <DependentUpon>Albania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Belarus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Belarus.Designer.cs">
+      <DependentUpon>Belarus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\BosniaHertegovina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\BosniaHertegovina.Designer.cs">
+      <DependentUpon>BosniaHertegovina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Bulgaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Bulgaria.Designer.cs">
+      <DependentUpon>Bulgaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Cipru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Cipru.Designer.cs">
+      <DependentUpon>Cipru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Croatia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Croatia.Designer.cs">
+      <DependentUpon>Croatia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Estonia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Estonia.Designer.cs">
+      <DependentUpon>Estonia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Finlanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Finlanda.Designer.cs">
+      <DependentUpon>Finlanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Irlanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Irlanda.Designer.cs">
+      <DependentUpon>Irlanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Islanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Islanda.Designer.cs">
+      <DependentUpon>Islanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Letonia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Letonia.Designer.cs">
+      <DependentUpon>Letonia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Lituania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Lituania.Designer.cs">
+      <DependentUpon>Lituania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Grecia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Grecia.Designer.cs">
+      <DependentUpon>Grecia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Italia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Italia.Designer.cs">
+      <DependentUpon>Italia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Kosovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Kosovo.Designer.cs">
+      <DependentUpon>Kosovo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Macedonia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Macedonia.Designer.cs">
+      <DependentUpon>Macedonia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Malta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Malta.Designer.cs">
+      <DependentUpon>Malta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Franta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Franta.Designer.cs">
+      <DependentUpon>Franta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Germania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Germania.Designer.cs">
+      <DependentUpon>Germania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Liechtenstein.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Liechtenstein.Designer.cs">
+      <DependentUpon>Liechtenstein.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Luxemburg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Luxemburg.Designer.cs">
+      <DependentUpon>Luxemburg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meniu\Adaugare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meniu\Adaugare.Designer.cs">
+      <DependentUpon>Adaugare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meniu\ConectareANDInregistrare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meniu\ConectareANDInregistrare.Designer.cs">
+      <DependentUpon>ConectareANDInregistrare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Meniu\DetaliiCont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meniu\DetaliiCont.Designer.cs">
+      <DependentUpon>DetaliiCont.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Continente\Europa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continente\Europa.Designer.cs">
+      <DependentUpon>Europa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meniu\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meniu\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Norvegia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Norvegia.Designer.cs">
+      <DependentUpon>Norvegia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Muntenegru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Muntenegru.Designer.cs">
+      <DependentUpon>Muntenegru.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Polonia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Polonia.Designer.cs">
+      <DependentUpon>Polonia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Monaco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Monaco.Designer.cs">
+      <DependentUpon>Monaco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Olanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Olanda.Designer.cs">
+      <DependentUpon>Olanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Portugalia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Portugalia.Designer.cs">
+      <DependentUpon>Portugalia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Continente\Vizitator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Continente\Vizitator.Designer.cs">
+      <DependentUpon>Vizitator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Romania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Romania.Designer.cs">
+      <DependentUpon>Romania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Rusia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Rusia.Designer.cs">
+      <DependentUpon>Rusia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Suedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Suedia.Designer.cs">
+      <DependentUpon>Suedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\RepMoldova.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\RepMoldova.Designer.cs">
+      <DependentUpon>RepMoldova.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Serbia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Serbia.Designer.cs">
+      <DependentUpon>Serbia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Slovacia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Slovacia.Designer.cs">
+      <DependentUpon>Slovacia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Ucraina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Ucraina.Designer.cs">
+      <DependentUpon>Ucraina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Ungaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Ungaria.Designer.cs">
+      <DependentUpon>Ungaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Vatican.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Vatican.Designer.cs">
+      <DependentUpon>Vatican.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\RegatulUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\RegatulUnit.Designer.cs">
+      <DependentUpon>RegatulUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\RepCeha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\RepCeha.Designer.cs">
+      <DependentUpon>RepCeha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\SanMarino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\SanMarino.Designer.cs">
+      <DependentUpon>SanMarino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Slovenia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Slovenia.Designer.cs">
+      <DependentUpon>Slovenia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EUROPE\Spania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EUROPE\Spania.Designer.cs">
+      <DependentUpon>Spania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meniu\Rezervare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meniu\Rezervare.Designer.cs">
+      <DependentUpon>Rezervare.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Continente\Africa.resx">
+      <DependentUpon>Africa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continente\America_de_Nord.resx">
+      <DependentUpon>America_de_Nord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continente\America_de_Sud.resx">
+      <DependentUpon>America_de_Sud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continente\Asia.resx">
+      <DependentUpon>Asia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continente\Australia.resx">
+      <DependentUpon>Australia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Albania.resx">
+      <DependentUpon>Albania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Andorra.resx">
+      <DependentUpon>Andorra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Austria.resx">
+      <DependentUpon>Austria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Belarus.resx">
+      <DependentUpon>Belarus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Belgia.resx">
+      <DependentUpon>Belgia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\BosniaHertegovina.resx">
+      <DependentUpon>BosniaHertegovina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Bulgaria.resx">
+      <DependentUpon>Bulgaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Cipru.resx">
+      <DependentUpon>Cipru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Croatia.resx">
+      <DependentUpon>Croatia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Danemarca.resx">
+      <DependentUpon>Danemarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Elvetia.resx">
+      <DependentUpon>Elvetia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Estonia.resx">
+      <DependentUpon>Estonia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Finlanda.resx">
+      <DependentUpon>Finlanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Franta.resx">
+      <DependentUpon>Franta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Germania.resx">
+      <DependentUpon>Germania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Grecia.resx">
+      <DependentUpon>Grecia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Irlanda.resx">
+      <DependentUpon>Irlanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Islanda.resx">
+      <DependentUpon>Islanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Italia.resx">
+      <DependentUpon>Italia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Kosovo.resx">
+      <DependentUpon>Kosovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Letonia.resx">
+      <DependentUpon>Letonia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Liechtenstein.resx">
+      <DependentUpon>Liechtenstein.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Lituania.resx">
+      <DependentUpon>Lituania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Luxemburg.resx">
+      <DependentUpon>Luxemburg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Macedonia.resx">
+      <DependentUpon>Macedonia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Malta.resx">
+      <DependentUpon>Malta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Monaco.resx">
+      <DependentUpon>Monaco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Muntenegru.resx">
+      <DependentUpon>Muntenegru.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Norvegia.resx">
+      <DependentUpon>Norvegia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Olanda.resx">
+      <DependentUpon>Olanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Polonia.resx">
+      <DependentUpon>Polonia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Portugalia.resx">
+      <DependentUpon>Portugalia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\RegatulUnit.resx">
+      <DependentUpon>RegatulUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\RepCeha.resx">
+      <DependentUpon>RepCeha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\RepMoldova.resx">
+      <DependentUpon>RepMoldova.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Romania.resx">
+      <DependentUpon>Romania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Rusia.resx">
+      <DependentUpon>Rusia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\SanMarino.resx">
+      <DependentUpon>SanMarino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Serbia.resx">
+      <DependentUpon>Serbia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Slovacia.resx">
+      <DependentUpon>Slovacia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Slovenia.resx">
+      <DependentUpon>Slovenia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Spania.resx">
+      <DependentUpon>Spania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Suedia.resx">
+      <DependentUpon>Suedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Ucraina.resx">
+      <DependentUpon>Ucraina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Ungaria.resx">
+      <DependentUpon>Ungaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EUROPE\Vatican.resx">
+      <DependentUpon>Vatican.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meniu\Adaugare.resx">
+      <DependentUpon>Adaugare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meniu\ConectareANDInregistrare.resx">
+      <DependentUpon>ConectareANDInregistrare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meniu\DetaliiCont.resx">
+      <DependentUpon>DetaliiCont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Continente\Europa.resx">
+      <DependentUpon>Europa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meniu\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meniu\Rezervare.resx">
+      <DependentUpon>Rezervare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Continente\Vizitator.resx">
+      <DependentUpon>Vizitator.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database1DataSet.xsc">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet.xss">
+      <DependentUpon>Database1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\Vatican- HOTEL TRIANON PIO APARTHOTEL.jpg" />
+    <None Include="Resources\Zalaegerszeg- HOTEL ARANY BARANY.jpg" />
+    <None Include="Resources\Szombathely- HOTEL PAZIO.jpg" />
+    <None Include="Resources\Székesfehérvár- HOTEL NOVOTEL.jpg" />
+    <None Include="Resources\Seghedin- HOTEL AURIS.jpg" />
+    <None Include="Resources\Pécs- HOTEL AGOSTON.jpg" />
+    <None Include="Resources\Miskolc- HOTEL LIDO.jpg" />
+    <None Include="Resources\Kecskemét- BOUTIQUE HOTEL CENTER.jpg" />
+    <None Include="Resources\Györ- HOTEL IBIS.jpg" />
+    <None Include="Resources\Debrețin- HOTEL MALOM.jpg" />
+    <None Include="Resources\Budapesta- HOTEL DANUBIUS.jpg" />
+    <None Include="Resources\Sevastopol- HOTEL ADMIRAL.jpg" />
+    <None Include="Resources\Poltava- HOTEL PREMIER PALAZZO.jpg" />
+    <None Include="Resources\Odesa- HOTEL NEMO.jpg" />
+    <None Include="Resources\Kryvyi Rih- HOTEL KRIVOY ROG.jpg" />
+    <None Include="Resources\Kiev- HOTEL FAIRMONT GRAND HOTEL.jpg" />
+    <None Include="Resources\Ivano-Frankivsk- HOTEL NADIYA.jpg" />
+    <None Include="Resources\Harkov- HOTEL OVIS.jpg" />
+    <None Include="Resources\Dnipropetrovsk- HOTEL REICARTZ.jpg" />
+    <None Include="Resources\Cernăuţi- HOTEL BUKOVINA.jpg" />
+    <None Include="Resources\Stockholm- HOTEL DIPLOMAT.jpg" />
+    <None Include="Resources\Skellefteå- HOTEL SCANDIC.jpg" />
+    <None Include="Resources\Jönköping- HOTEL SCANDIC.jpg" />
+    <None Include="Resources\Göteborg- HOTEL FIRST G.jpg" />
+    <None Include="Resources\Škofja Loka- HOTEL GARNI PALETA.jpg" />
+    <None Include="Resources\Ptuj- GRAND HOTEL PRIMUS.jpg" />
+    <None Include="Resources\Maribor- HOTEL MARIBOR.jpg" />
+    <None Include="Resources\Ljubljana- M HOTEL.jpg" />
+    <None Include="Resources\Kranj- HOTEL AZUL.jpg" />
+    <None Include="Resources\Koper- HOTEL KOPER.jpg" />
+    <None Include="Resources\Kočevje- HOTEL VALENTIN.jpg" />
+    <None Include="Resources\Izola- HOTEL MARINA.jpg" />
+    <None Include="Resources\Celje- HOTEL CELIA.jpg" />
+    <None Include="Resources\Bled-GRAND  HOTEL TOPLICE.jpg" />
+    <None Include="Resources\Žilina - HOTEL SLOVAKIA.jpg" />
+    <None Include="Resources\Trenčín- HOTEL ELIZABETH.jpg" />
+    <None Include="Resources\Spišská Nová Ves- HOTEL METROPOL.jpg" />
+    <None Include="Resources\Rožňava- HOTEL ARENA.jpg" />
+    <None Include="Resources\Piešťany- HOTEL MAGNOLIA.jpg" />
+    <None Include="Resources\Nitra- HOTEL NITRA.jpg" />
+    <None Include="Resources\Bratislava- HOTEL BRATISLAVA.jpeg" />
+    <None Include="Resources\Bardejov- HOTEL LE MONDE.jpg" />
+    <None Include="Resources\Banská Bystrica- HOTEL LUX.jpg" />
+    <None Include="Resources\Užice- HOTEL ZLATIBOR.jpg" />
+    <None Include="Resources\Pirot- HOTEL ANA LUX SPA.jpg" />
+    <None Include="Resources\Novi Pazar- HOTEL VRBAK.jpg" />
+    <None Include="Resources\Novi  Sad- HOTEL PREZIDENT.jpg" />
+    <None Include="Resources\Belgrad- HOTEL JUGOSLAVIJA.jpg" />
+    <None Include="Resources\San Marino- VALLARTA.jpg" />
+    <None Include="Resources\San Marino- HOTEL GRAND HOTEL.jpg" />
+    <None Include="Resources\Voronej- HOTEL MARRIOTT.jpg" />
+    <None Include="Resources\Samara- HOTEL LOTTE.jpg" />
+    <None Include="Resources\Pskov- HOTEL PUSHKIN.jpg" />
+    <None Include="Resources\Nijni- HOTEL PARK INN.jpg" />
+    <None Include="Resources\Moscova- HOTEL BELGRAD HOTEL.jpg" />
+    <None Include="Resources\Kazan- HOTEL COURTYARD.jpg" />
+    <None Include="Resources\Praga- HOTEL BELVEEDERE.jpg" />
+    <None Include="Resources\Plzeň- HOTEL A STORY.jpg" />
+    <None Include="Resources\Pardubice- HOTEL HURKA.jpg" />
+    <None Include="Resources\Ostrava- HOTEL IMPERIAL.jpg" />
+    <None Include="Resources\Olomouc- HOTEL PALAC.jpg" />
+    <None Include="Resources\Liberec- HOTEL PRAHA.jpg" />
+    <None Include="Resources\Karlovy Vary- HOTEL OLIMPIC PALACE.jpg" />
+    <None Include="Resources\Děčín- HOTEL GOLDEN LINDEN.jpg" />
+    <None Include="Resources\České Budějovice- HOTEL CLARION CONGRESS.jpg" />
+    <None Include="Resources\Brno- HOTEL GRAND HOTEL.jpg" />
+    <None Include="Resources\Wick- HOTEL NETHERCLIFFE.jpg" />
+    <None Include="Resources\Sheffield- HOTEL HAMPTON BY HILTON.jpg" />
+    <None Include="Resources\Norwich- HOTEL EXPRESS.jpg" />
+    <None Include="Resources\Manchester- HOTEL PARK INN.jpg" />
+    <None Include="Resources\Londra- HOTEL DUBLETREE BY HILTON.jpg" />
+    <None Include="Resources\Liverpool- HOTEL DOLBY.jpg" />
+    <None Include="Resources\Inverness- HOTEL THE ROYAL HIGHLAND.jpg" />
+    <None Include="Resources\Glasgow- HOTEL INDIGO GLASGOW.jpg" />
+    <None Include="Resources\Edinburgh- HOTEL MARRIOTT.jpg" />
+    <None Include="Resources\Dumfries- HOTEL CAIRNDALE.jpg" />
+    <None Include="Resources\Cambridge- HOTEL IBIS CAMBRIDGE.jpg" />
+    <None Include="Resources\Birmingham- HOTEL BRITANNIA BIRMINGHAM.jpg" />
+    <None Include="Resources\Aberdeen- THE STATION HOTEL.jpg" />
+    <None Include="Resources\Vila Real- HOTEL MIRA CORGO.jpg" />
+    <None Include="Resources\Tavira- HOTEL VILA GALE.jpg" />
+    <None Include="Resources\Sintra- HOTEL LUXURY.jpg" />
+    <None Include="Resources\Porto- HOTEL TRYP PORTO CENTRO.jpg" />
+    <None Include="Resources\Lisabona- HOTEL AVENIDA PALACE.jpg" />
+    <None Include="Resources\Elvas- HOTEL VARCHOTEL.jpg" />
+    <None Include="Resources\Braga- HOTEL DO LAGO.jpg" />
+    <None Include="Resources\Algarve- HOTEL ALGAVRE CASINO.jpg" />
+    <None Include="Resources\Zamość- HOTEL KORONNY.jpg" />
+    <None Include="Resources\Wroclaw- HOTEL POLONIA.jpg" />
+    <None Include="Resources\Varşovia- HOTEL POLONIA PALACE.jpg" />
+    <None Include="Resources\Toruń- HOTEL POLONIA.jpg" />
+    <None Include="Resources\Szczecin- HOTEL RADISSON BLU.jpg" />
+    <None Include="Resources\Poznań- HOTEL POLONIA.jpg" />
+    <None Include="Resources\Lublin- HOTEL B&amp;B.jpg" />
+    <None Include="Resources\Łódź- HOTEL POLONIA PALAST.jpg" />
+    <None Include="Resources\Katowice- HOTEL SILESIA.jpg" />
+    <None Include="Resources\Gdynia- HOTEL MERCURE.jpg" />
+    <None Include="Resources\Gdańsk- HOTEL FAHRENHEIT.jpg" />
+    <None Include="Resources\Cracovia- HOTEL POLONIA.jpg" />
+    <None Include="Resources\Bydgoszcz- HOTEL MARATON.jpg" />
+    <None Include="Resources\Białystok- HOTEL CRISTAL.jpg" />
+    <None Include="Resources\Utrecht- HOTEL MITLAND.jpg" />
+    <None Include="Resources\Rotterdam- HOTEL ART.jpg" />
+    <None Include="Resources\Maastricht- HOTEL MONASTERE.jpg" />
+    <None Include="Resources\Leeuwarden- HOTEL ORANJE.jpg" />
+    <None Include="Resources\Haga- HOTEL NOVOTEL THE HAGUE WORLD FORUM.jpg" />
+    <None Include="Resources\Arnhem- HOTEL HOLIDAY INN.jpg" />
+    <None Include="Resources\Amsterdam- HOTEL FLETCHER.jpg" />
+    <None Include="Resources\Tromsø- HOTEL CLARION.jpg" />
+    <None Include="Resources\Oslo- HOTEL CONTINENTAL.jpg" />
+    <None Include="Resources\Bodø- HOTEL THON NORDLYS.jpg" />
+    <None Include="Resources\Bergen- HOTEL CLARION ADMIRAL.jpg" />
+    <None Include="Resources\Žabljak- HOTEL ŽABLJAK.jpg" />
+    <None Include="Resources\Ulcinj- HOTEL AMBIENTE.jpg" />
+    <None Include="Resources\Tivat- HOTEL REGENT PORTO.jpg" />
+    <None Include="Resources\Podgorica- HOTEL PODGORICA.jpg" />
+    <None Include="Resources\Pljevjla- HOTEL PLJEVJLA.jpg" />
+    <None Include="Resources\Nikšić- HOTEL ONOGOST.jpg" />
+    <None Include="Resources\Kotor- HOTEL SARA.jpg" />
+    <None Include="Resources\Budva- HOTEL FALKENSTEINER.jpg" />
+    <None Include="Resources\Berane- HOTEL BERANE.jpg" />
+    <None Include="Resources\Saint Roman- HOTEL PARC SAINT ROMAN.jpg" />
+    <None Include="Resources\Monte-Carlo- HOTEL BAY.jpg" />
+    <None Include="Resources\Monaco-Ville- HOTEL DE PARIS-MONTE CARLO.jpg" />
+    <None Include="Resources\Fontvieille- HOTEL METROPOLE.jpg" />
+    <None Include="Resources\Soroca- HOTEL CENTRAL.jpg" />
+    <None Include="Resources\Chișinău- HOTEL ARIA.jpg" />
+    <None Include="Resources\Bălți- HOTEL LIDOLUX.jpg" />
+    <None Include="Resources\Valletta - HOTEL GRAND EXCELSIOR.jpg" />
+    <None Include="Resources\Mellieha - HOTEL MELLIEHA BAY.jpg" />
+    <None Include="Resources\La Saint Julian-s - HOTEL THE ST. GEORGE-S PARK.jpg" />
+    <None Include="Resources\Attard- HOTEL CORINTHIA PALACE.jpg" />
+    <None Include="Resources\Veles- HOTEL ROMANTIQUE VELES.jpg" />
+    <None Include="Resources\Tetovo- HOTEL TIVOLI.jpg" />
+    <None Include="Resources\Strumica- HOTEL GLIGOROV.jpg" />
+    <None Include="Resources\Skopje- HOTEL MARRIOTT.jpg" />
+    <None Include="Resources\Prilep- HOTEL ATLAS CITY CENTER.jpg" />
+    <None Include="Resources\Ohrida- HOTEL FILIP.jpg" />
+    <None Include="Resources\Bitola- HOTEL KEOPS.jpg" />
+    <None Include="Resources\Luxemburg- HOTEL EMPIRE.jpg" />
+    <None Include="Resources\Diekirch- HOTEL DU PARC.jpg" />
+    <None Include="Resources\Vilnius- HOTEL PANORAMA.jpg" />
+    <None Include="Resources\Trakay- HOTEL TONYRESORT.jpg" />
+    <None Include="Resources\Šiauliai- HOTEL ŠIAULIAI.jpg" />
+    <None Include="Resources\Klaipėda- HOTEL AMBERTON KLAIPEDA.jpg" />
+    <None Include="Resources\Kaunas- HOTEL BOOK.jpg" />
+    <None Include="Resources\Liechtenstein- HOTEL TURNA MALBUN.jpg" />
+    <None Include="Resources\Riga- HOTEL WELLTON ELEFANT.jpg" />
+    <None Include="Resources\Rēzekne- HOTEL KOLONNA REZEKNE.jpg" />
+    <None Include="Resources\Liepāja- HOTEL PROMENADE.jpg" />
+    <None Include="Resources\Daugavpils- PARK HOTEL LATGOLA.jpg" />
+    <None Include="Resources\Cēsis- HOTEL CESIS.jpg" />
+    <None Include="Resources\Prizren- HOTEL CLASSIC PRIZREN.jpg" />
+    <None Include="Resources\Priștina-  GRAND HOTEL PRISHTINA.jpg" />
+    <None Include="Resources\Mitrovița- HOTEL PALACE.jpg" />
+    <None Include="Resources\Veneția - HOTEL VENEZIA.jpg" />
+    <None Include="Resources\Sicilia - ORTEA PALACE HOTEL.jpg" />
+    <None Include="Resources\Roma- HOTEL CENTRO.jpg" />
+    <None Include="Resources\Palermo - ASTORIA PALACE HOTEL.jpg" />
+    <None Include="Resources\Napoli - HOTEL ROMEO.jpg" />
+    <None Include="Resources\Milano- HOTEL SEMPIONE.jpg" />
+    <None Include="Resources\Genova - HOTEL CONTINENTAL.jpg" />
+    <None Include="Resources\Florența- HOTEL NUOVA.jpg" />
+    <None Include="Resources\Catania - HOTEL NETTUNO.jpg" />
+    <None Include="Resources\Bologna - HOTEL BOLOGNA.jpg" />
+    <None Include="Resources\Bari - HOTEL ORIENTE.jpg" />
+    <None Include="Resources\Reykjavík- HOTEL CABIN.jpg" />
+    <None Include="Resources\Grindavik- HOTEL GEO.jpg" />
+    <None Include="Resources\Waterford- HOTEL TREACYS.jpg" />
+    <None Include="Resources\Londonderry- HOTEL DERRY.jpg" />
+    <None Include="Resources\Limerick- HOTEL LIMERICK CITY.jpg" />
+    <None Include="Resources\Kilkenny- HOTEL KILKENNY.jpg" />
+    <None Include="Resources\Galway- HOTEL GALMONT.jpg" />
+    <None Include="Resources\Dublin- HOTEL BUSWELLS.jpg" />
+    <None Include="Resources\Cork- THE METROPOLE HOTEL.jpg" />
+    <None Include="Resources\Salonic- HOTEL ELECTRA PALACE.jpg" />
+    <None Include="Resources\Patras- HOTEL PORTO RIO.jpg" />
+    <None Include="Resources\Kavala- HOTEL LUCY.jpg" />
+    <None Include="Resources\Corint- HOTEL MARION.jpg" />
+    <None Include="Resources\Corfu- HOTEL SUNSET.jpg" />
+    <None Include="Resources\Atena- HOTEL TITANIA.jpg" />
+    <None Include="Resources\Agios Nikolaos- HOTEL CORAL.jpg" />
+    <None Include="Resources\Stuttgart- HOTEL B&amp;B.jpg" />
+    <None Include="Resources\Nürnberg- HOTEL B&amp;B.jpg" />
+    <None Include="Resources\München- HOTEL LEOPOLD.jpg" />
+    <None Include="Resources\Mannheim- HOTEL MERCURE.jpg" />
+    <None Include="Resources\Lübeck- HOTEL B&amp;B.jpg" />
+    <None Include="Resources\Leipzig- HOTEL FURSTENHOF.jpg" />
+    <None Include="Resources\Köln- HOTEL PARK INN.jpg" />
+    <None Include="Resources\Heidelberg- HOTEL PANORAMA.jpg" />
+    <None Include="Resources\Hanovra- HOTEL NOVOTEL.jpg" />
+    <None Include="Resources\Hamburg- HOTEL GRAND ELYSEE.jpg" />
+    <None Include="Resources\Frankfurt pe Main- HOTEL HYATT PALACE.jpg" />
+    <None Include="Resources\Düsseldorf- HOTEL HILTON DÜSSELDORF.jpg" />
+    <None Include="Resources\Dresda- HOTEL HILTON DRESDEN.jpg" />
+    <None Include="Resources\Dortmund- HOTEL B&amp;B.jpg" />
+    <None Include="Resources\Bremen- HOTEL MARITIM.jpg" />
+    <None Include="Resources\Berlin- HOTEL PARK INN.jpg" />
+    <None Include="Resources\Toulouse- HOTEL DE FRANCE.jpg" />
+    <None Include="Resources\Strasbourg- HOTEL MERCURE.jpg" />
+    <None Include="Resources\Paris-HOTEL PLAZA ATHENEE.jpg" />
+    <None Include="Resources\Nantes- HOTEL RADISSON BLU.jpg" />
+    <None Include="Resources\Montpellier- HOTEL LE CLOS DE L-AUBE ROUGE.jpg" />
+    <None Include="Resources\Marseille- HOTEL INTERCONTINENTAL.jpg" />
+    <None Include="Resources\Lyon- HOTEL CARLTON.jpg" />
+    <None Include="Resources\Caen- HOTEL CROCUS.jpg" />
+    <None Include="Resources\Bordeaux- HOTEL INTERCONTINENTAL.jpg" />
+    <None Include="Resources\Rovaniemi - HOTEL ARCTIC LIGHT.jpg" />
+    <None Include="Resources\Turku- HOTEL KUPITTA.jpg" />
+    <None Include="Resources\Tampere- HOTEL CUMULUS TEMPERE.jpg" />
+    <None Include="Resources\Oulu- HOTEL RADISSON BLU.jpg" />
+    <None Include="Resources\Helsinki- HOTEL ARTHUR.jpg" />
+    <None Include="Resources\Võru- HOTEL KUBIJA.jpg" />
+    <None Include="Resources\Tartu- HOTEL DORPAT.jpg" />
+    <None Include="Resources\Tallinn- HOTEL IMPERIAL.jpg" />
+    <None Include="Resources\Sillamäe- HOTEL KRUK.jpg" />
+    <None Include="Resources\Rakvere- AQVA HOTEL.jpg" />
+    <None Include="Resources\Narva- HOTEL NARVA.jpg" />
+    <None Include="Resources\HOTEL GEORG OTS SPA.jpg" />
+    <None Include="Resources\Lucerna-HOTEL RADISSON BLU.jpg" />
+    <None Include="Resources\Zürich- HOTEL BRISTOL.jpg" />
+    <None Include="Resources\St. Moritz- HOTEL KULM.jpg" />
+    <None Include="Resources\Sion- HOTEL DES VIGNES.jpg" />
+    <None Include="Resources\Lugano- HOTEL SPLENDIDE ROYAL.jpg" />
+    <None Include="Resources\Lausanne- HOTEL DE LA PAIX LAUSANNE.jpg" />
+    <None Include="Resources\Geneva- HOTEL NOVOTEL CENTRE.jpg" />
+    <None Include="Resources\Davos- HOTEL CLUB DAVOS.jpg" />
+    <None Include="Resources\Berna- HOTEL KURSAAL.jpg" />
+    <None Include="Resources\Basel- HOTEL IBIS BUDGET.jpg" />
+    <None Include="Resources\Odense- HOTEL MILLING PLAZA.jpg" />
+    <None Include="Resources\Esbjerg- HOTEL ANSGAR.jpg" />
+    <None Include="Resources\Copenhaga- HOTEL GRAND HOTEL.jpg" />
+    <None Include="Resources\Aarhus- HOTEL ROYAL.jpg" />
+    <None Include="Resources\Aalborg- HOTEL FIRST.jpg" />
+    <None Include="Resources\Zagreb- HOTEL ASTORIA.jpg" />
+    <None Include="Resources\Zadar- HOTEL ZADAR.jpg" />
+    <None Include="Resources\Split- HOTEL SPLIT.jpg" />
+    <None Include="Resources\Šibenik- HOTEL NIKO.jpg" />
+    <None Include="Resources\Rovinj- HOTEL GRAND PARK.jpg" />
+    <None Include="Resources\Rijeka- HOTEL JADRAN.jpg" />
+    <None Include="Resources\Omiš- HOTEL HILDEGARD.jpg" />
+    <None Include="Resources\Makarska- HOTEL METEOR.jpg" />
+    <None Include="Resources\Karlovak- HOTEL EUROPA.jpg" />
+    <None Include="Resources\Dubrovnik- HOTEL DUBROVNIK PALACE.jpg" />
+    <None Include="Resources\Dokovo- HOTEL DAKOVO.jpg" />
+    <None Include="Resources\Nicosia-Hotel Crown.jpg" />
+    <None Include="Resources\Limassol- HOTEL ELIAS BEACH.jpg" />
+    <None Include="Resources\Kyrenia- HOTEL OSCAR SEAFRONT HOTEL.jpg" />
+    <None Include="Resources\Ayia Napa- HOTEL ASTERIAS BEACH.jpg" />
+    <None Include="Resources\Rezervare.png" />
+    <None Include="Resources\Logare.jpg" />
+    <None Include="Resources\CreareCont.jpg" />
+    <None Include="Resources\Admin.jpg" />
+    <None Include="Resources\generic-user-icon-4 - Copy %282%291.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\Vidin- HOTEL ANNA-KRISTINA.jpg" />
+    <None Include="Resources\Varna- HOTEL GRAND HOTEL VARNA.jpg" />
+    <None Include="Resources\Stara Zagora- HOTEL UNIQATO.jpg" />
+    <None Include="Resources\Sofia- HOTEL SOFIA NISIPURILE DE AUR.jpg" />
+    <None Include="Resources\Sandanski- HOTEL INTERHOTEL SANANSKI.jpg" />
+    <None Include="Resources\Ruse- HOTEL SPLENDID RUSE.jpg" />
+    <None Include="Resources\Plovdiv- HOTEL MARITZA.jpg" />
+    <None Include="Resources\Pernik- HOTEL ELIT.jpg" />
+    <None Include="Resources\Burgas- HOTEL BURGAS BEACH.jpg" />
+    <None Include="Resources\Asenovgrad- HOTEL SANI.jpg" />
+    <None Include="Resources\20171017083023.jpg.800x600_q85_crop-center.jpg" />
+    <None Include="Resources\San Sebastian_HOTEL ARIMA.jpg" />
+    <None Include="Resources\Zaragoza- HOTEL HIBERUS.jpg" />
+    <None Include="Resources\Vigo- HOTEL ZENIT.jpg" />
+    <None Include="Resources\Valencia- HOTEL VALENCIA CENTER.jpg" />
+    <None Include="Resources\Toledo- HOTEL BEATRIZ TOLEDO AUDITORIUM.jpg" />
+    <None Include="Resources\Sevilla- HOTEL SILKEN AL-ANDALUZ.jpg" />
+    <None Include="Resources\Murcia- HOTEL CELIA MAR MENOR GOLF &amp; SPA RESORT.jpg" />
+    <None Include="Resources\Mérida- HOTEL TRYP MEDEA.jpg" />
+    <None Include="Resources\Madrid- HOTEL EMPERADOR.jpg" />
+    <None Include="Resources\HOTEL W.jpg" />
+    <None Include="Resources\Cordoba- HOTEL CORDOBA CENTER.jpg" />
+    <None Include="Resources\Bilbao- HOTEL OCCIDENTAL BILBAO.jpg" />
+    <None Include="Resources\Zenica- HOTEL ZENICA.jpg" />
+    <None Include="Resources\Travnik- HOTEL VEZIR PALACE.jpg" />
+    <None Include="Resources\Sarajevo- HOTEL EUROPE.jpg" />
+    <None Include="Resources\Neum-  GRAND HOTEL NEUM.jpg" />
+    <None Include="Resources\Mostar- HOTEL EDEN.jpg" />
+    <None Include="Resources\Goražde- HOTEL BEHAR.jpg" />
+    <None Include="Resources\Doboj- HOTEL PARK.jpg" />
+    <None Include="Resources\Cazin- HOTEL TAZZ.jpg" />
+    <None Include="Resources\Bijeljina- HOTEL SICO.jpg" />
+    <None Include="Resources\Bihać- HOTEL SAFIR.jpg" />
+    <None Include="Resources\Banja Luka- HOTEL CEZAR.jpg" />
+    <None Include="Resources\Liège- HOTEL PREMIERE CLASSE.jpg" />
+    <None Include="Resources\Gent- HOTEL GRAVENSTEEN.jpg" />
+    <None Include="Resources\Dinant- HOTEL MERVEILLEUSE BY INFINITI RESORTS.jpg" />
+    <None Include="Resources\Bruxelles- HOTEL METROPOLE.jpg" />
+    <None Include="Resources\Anvers- HOTEL ANTWERP NATIONAL.jpg" />
+    <None Include="Resources\Vitebsk- HOTEL LUCHESA.jpg" />
+    <None Include="Resources\Minsk- HOTEL BELARUS.jpg" />
+    <None Include="Resources\Mahilyow- HOTEL ATRIUM.jpg" />
+    <None Include="Resources\Lida- HOTEL EKVATOR.jpg" />
+    <None Include="Resources\Brest- HOTEL BELARUS.jpg" />
+    <None Include="Resources\Viena- HOTEL AUSTRIA.jpg" />
+    <None Include="Resources\Salzburg- HOTEL AUSTRIA TREND SALZBURG WEST.jpg" />
+    <None Include="Resources\Linz- HOTEL SCHILLERPARK.jpg" />
+    <None Include="Resources\Innsbruck- HOTEL INNSBRUCK.jpg" />
+    <None Include="Resources\Graz- HOTEL RAMADA GRAZ.jpg" />
+    <None Include="Resources\Les Escaldes- HOTEL ROC BLANC.jpg" />
+    <None Include="Resources\El Serrat- HOTEL NIUNIT.jpg" />
+    <None Include="Resources\Canillo- HOTEL MAGIC.jpg" />
+    <None Include="Resources\Andorra la Vella- HOTEL PANORAMA.jpg" />
+    <None Include="Resources\Vlora- HOTEL LIRO.jpg" />
+    <None Include="Resources\Tirana- HOTEL DINASTY.jpg" />
+    <None Include="Resources\Shkodër- HOTEL COLOSSEO&amp;SPA.jpg" />
+    <None Include="Resources\Saranda- HOTEL SARANDA PALACE.jpg" />
+    <None Include="Resources\Pogradec- HOTEL POGRADECI.jpg" />
+    <None Include="Resources\Durrës- HOTEL PALACE SPA.jpg" />
+    <None Include="Resources\Berat- HOTEL COLOMBO.jpg" />
+    <None Include="Resources\Suceava- HOTEL CONTINENTAL.jpg" />
+    <None Include="Resources\Sighișoara- HOTEL SIGHISOARA.jpg" />
+    <None Include="Resources\Sibiu- HOTEL HILTON.jpg" />
+    <None Include="Resources\Oradea- HOTEL DUBLETREE.jpg" />
+    <None Include="Resources\Iași- HOTEL RAMADA.jpg" />
+    <None Include="Resources\HOTEL TIMISOARA.jpg" />
+    <None Include="Resources\Craiova- HOTEL EMMA WEST.jpg" />
+    <None Include="Resources\Constanța- AQVATONIC HOTEL - STEAUA DE MARE.jpg" />
+    <None Include="Resources\Cluj-Napoca- WEST CITY HOTEL.jpg" />
+    <None Include="Resources\București- HOTEL ATHENEE PALACE HILTON.jpg" />
+    <None Include="Resources\Brașov- HOTEL AMBIENT.jpg" />
+    <None Include="Resources\Alba-Iulia- HOTEL MARISS.jpg" />
+    <None Include="Resources\Bosnia si Hertegovina.png" />
+    <None Include="Resources\Bosnia si Hertegovina2.png" />
+    <None Include="Resources\Vatican2.png" />
+    <None Include="Resources\Vatican.png" />
+    <None Include="Resources\Ungaria.png" />
+    <None Include="Resources\Ungaria2.png" />
+    <None Include="Resources\Ucraina2.png" />
+    <None Include="Resources\Ucraina.png" />
+    <None Include="Resources\Spania1.png" />
+    <None Include="Resources\Suedia2.png" />
+    <None Include="Resources\Suedia.png" />
+    <None Include="Resources\Slovenia.png" />
+    <None Include="Resources\Slovenia2.png" />
+    <None Include="Resources\Slovacia2.png" />
+    <None Include="Resources\Slovacia.png" />
+    <None Include="Resources\Serbia.png" />
+    <None Include="Resources\Serbia2.png" />
+    <None Include="Resources\San Marino2.png" />
+    <None Include="Resources\San Marino.png" />
+    <None Include="Resources\Rusia.png" />
+    <None Include="Resources\Rusia2.png" />
+    <None Include="Resources\Moldova2.png" />
+    <None Include="Resources\Moldova.png" />
+    <None Include="Resources\Republica Ceha.png" />
+    <None Include="Resources\Republica Ceha2.png" />
+    <None Include="Resources\Regatul Unit2.png" />
+    <None Include="Resources\Marea Britanie.png" />
+    <None Include="Resources\Portugalia.png" />
+    <None Include="Resources\Portugalia2.png" />
+    <None Include="Resources\Polonia2.png" />
+    <None Include="Resources\Polonia.png" />
+    <None Include="Resources\Olanda.png" />
+    <None Include="Resources\Olanda2.png" />
+    <None Include="Resources\Norvegia2.png" />
+    <None Include="Resources\Norvegia.png" />
+    <None Include="Resources\Muntenegru.png" />
+    <None Include="Resources\Muntenegru2.png" />
+    <None Include="Resources\Monaco2.png" />
+    <None Include="Resources\Monaco.png" />
+    <None Include="Resources\Malta.png" />
+    <None Include="Resources\Malta2.png" />
+    <None Include="Resources\Macedonia2.png" />
+    <None Include="Resources\Macedonia.png" />
+    <None Include="Resources\Luxemburg.png" />
+    <None Include="Resources\Luxemburg2.png" />
+    <None Include="Resources\Lituania2.png" />
+    <None Include="Resources\Lituania.png" />
+    <None Include="Resources\Liechtenstein.png" />
+    <None Include="Resources\Liechtenstein2.png" />
+    <None Include="Resources\Letonia2.png" />
+    <None Include="Resources\Letonia.png" />
+    <None Include="Resources\Kosovo.png" />
+    <None Include="Resources\Kosovo2.png" />
+    <None Include="Resources\Italia2.png" />
+    <None Include="Resources\Italia.png" />
+    <None Include="Resources\Islanda.png" />
+    <None Include="Resources\Islanda2.png" />
+    <None Include="Resources\Irlanda2.png" />
+    <None Include="Resources\Irlanda.png" />
+    <None Include="Resources\Grecia.png" />
+    <None Include="Resources\Grecia2.png" />
+    <None Include="Resources\Germania2.png" />
+    <None Include="Resources\Germania.png" />
+    <None Include="Resources\Franta.png" />
+    <None Include="Resources\Franta2.png" />
+    <None Include="Resources\Finlanda2.png" />
+    <None Include="Resources\Finlanda.png" />
+    <None Include="Resources\Estonia.png" />
+    <None Include="Resources\Estonia2.png" />
+    <None Include="Resources\Elvetia2.png" />
+    <None Include="Resources\Elvetia.png" />
+    <None Include="Resources\Danemarca.png" />
+    <None Include="Resources\Danemarca2.png" />
+    <None Include="Resources\Croatia2.png" />
+    <None Include="Resources\Croatia.png" />
+    <None Include="Resources\Cipru.png" />
+    <None Include="Resources\Cipru2.png" />
+    <None Include="Resources\Bulgaria2.png" />
+    <None Include="Resources\Bulgaria.png" />
+    <None Include="Resources\Belgia.png" />
+    <None Include="Resources\Belgia2.png" />
+    <None Include="Resources\Belarus2.png" />
+    <None Include="Resources\Belarus.png" />
+    <None Include="Resources\Austria.png" />
+    <None Include="Resources\Austria2.png" />
+    <None Include="Resources\Andorra2.png" />
+    <None Include="Resources\Andorra.png" />
+    <None Include="Resources\Albania.png" />
+    <None Include="Resources\Albania2.png" />
+    <None Include="Resources\Spania2.png" />
+    <None Include="Resources\Spania.png" />
+    <None Include="Resources\Romania.png" />
+    <None Include="Resources\Romania2.png" />
+    <None Include="Resources\X.png" />
+    <None Include="Resources\Bifa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

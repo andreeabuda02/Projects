@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\FACULTATE\Anul3\SEMESTRUL I\Prelucrare grafica (PG)\OpenGLprojectProiectMunte\main.cpp(192,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\Anul3\SEMESTRUL I\Prelucrare grafica (PG)\OpenGLprojectProiectMunte\main.cpp(193,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\Anul3\SEMESTRUL I\Prelucrare grafica (PG)\OpenGLprojectProiectMunte\main.cpp(196,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\Anul3\SEMESTRUL I\Prelucrare grafica (PG)\OpenGLprojectProiectMunte\main.cpp(197,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\Anul3\SEMESTRUL I\Prelucrare grafica (PG)\OpenGLprojectProiectMunte\main.cpp(199,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\FACULTATE\Anul3\SEMESTRUL I\Prelucrare grafica (PG)\OpenGLprojectProiectMunte\main.cpp(200,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  OpenGLprojectProiectMunte.vcxproj -> D:\FACULTATE\Anul3\SEMESTRUL I\Prelucrare grafica (PG)\OpenGLprojectProiectMunte\x64\Debug\OpenGLprojectProiectMunte.exe

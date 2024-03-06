@@ -1,0 +1,308 @@
+Timp:0
+In asteptare:(0,5,2) (3,5,2) (1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:1
+In asteptare:(0,5,2) (3,5,2) (1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:2
+In asteptare:(0,5,2) (3,5,2) (1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:3
+In asteptare:(0,5,2) (3,5,2) (1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:4
+In asteptare:(0,5,2) (3,5,2) (1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:5
+In asteptare:(1,10,3) (2,24,3) 
+Server[1]:(0,5,2) 
+Server[2]:(3,5,2) 
+
+Timp:6
+In asteptare:(1,10,3) (2,24,3) 
+Server[1]:(0,5,2) 
+Server[2]:(3,5,2) 
+
+Timp:7
+In asteptare:(1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:8
+In asteptare:(1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:9
+In asteptare:(1,10,3) (2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:10
+In asteptare:(2,24,3) 
+Server[1]:(1,10,3) 
+Server[2]:
+
+Timp:11
+In asteptare:(2,24,3) 
+Server[1]:(1,10,3) 
+Server[2]:
+
+Timp:12
+In asteptare:(2,24,3) 
+Server[1]:(1,10,3) 
+Server[2]:
+
+Timp:13
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:14
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:15
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:16
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:17
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:18
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:19
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:20
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:21
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:22
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:23
+In asteptare:(2,24,3) 
+Server[1]:
+Server[2]:
+
+Timp:24
+In asteptare:
+Server[1]:(2,24,3) 
+Server[2]:
+
+Timp:25
+In asteptare:
+Server[1]:(2,24,3) 
+Server[2]:
+
+Timp:26
+In asteptare:
+Server[1]:(2,24,3) 
+Server[2]:
+
+Timp:27
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:28
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:29
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:30
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:31
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:32
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:33
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:34
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:35
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:36
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:37
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:38
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:39
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:40
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:41
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:42
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:43
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:44
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:45
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:46
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:47
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:48
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:49
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:50
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:51
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:52
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:53
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:54
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:55
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:56
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:57
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:58
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:59
+In asteptare:
+Server[1]:
+Server[2]:
+
+Timp:60
+In asteptare:
+Server[1]:
+Server[2]:
+
+Ora de varf:5
+Timp mediu servire:2.5
+Timp mediu asteptare:0.0

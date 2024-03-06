@@ -1,0 +1,21 @@
+Cerințe funcționale:
+
+-Afișsare și gestiune restaurante (pentru utilizatori se afișsează lista restaurantelor disponibile pentru a face comenzi, iar adminul poate să introducă sau să șteargă restaurante de pe acea listă)
+-Afișare și gestiune produse (permine utilizatorilor să vadă produsele și prețul lor din meniul restaurantului ales, iar adminul poate să adauge, să modifice sau să șteargă produse din meniul restaurantelor)
+-Adăugare în coș (permite utilizatorilor să introducă o anumită cantitate a unui produs în coș, și să vadă cuprinsul comenzii)
+-Modificare coș (permite utilozatorilor să schimbe cantitatea produselor din coș sau să le șteargă)
+-Plasare comandă (permite utilizatorilor să plaseze o comandă și să introduă adresa la care să fie livrata și metoda de plată)
+-Calculare cost de livrare (se va calcula costul total al comenzii în functie de anumite tarife pentru țară/oraș/stradă)
+-Mesaj de confirmare (se va trimite utilizatorului un mesaj de confirmare a comenzii, după ce aceasta a fost plasată)
+-Gestionarea profilului utilizatorului (permite utilizatorilor să-și actualizeze informatiile de contact și adresa de livrare)
+-Autentificare utilizatori (sistemul o să ofere facilități de autentificare pentru utilizatori, inclusiv opțiuni de înregistrare și conectare, fiecare utilizator ar trebui să aibă un profil distinct, cu informații personale și istoricul comenzilor)
+-Roluri de utilizator (există două tipuri principale de utilizatori: utilizator normal și administrator. Utilizatorii normali pot vizualiza restaurantele, meniurile, să adauge produse în coș și să plaseze comenzi. Administratorii, pe de altă parte, au privilegii extinse, inclusiv adăugarea sau ștergerea de restaurante și produse, gestionarea utilizatorilor, și vizualizarea unor rapoarte și statistici.)
+
+Cerințe non-funcționale:
+
+-Intuitivitate și ușurință în utilizare (aplicația trebuie să fie ușor de înțeles și de utilizat de către utilizatori, având o interfață grafică intuitivă și eficientă)
+-Documentație (să existe o documentație detaliată unde să fie explicate funcționalitățile aplicației și modul de utilizare a acestora)
+
+
+
+

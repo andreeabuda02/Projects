@@ -1,0 +1,1387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Suedia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suedia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zagreb- HOTEL ASTORIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zagreb- HOTEL ASTORIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Marea Britanie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Marea Britanie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pernik- HOTEL ELIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pernik- HOTEL ELIT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doboj- HOTEL PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Doboj- HOTEL PARK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Irlanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Irlanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ruse- HOTEL SPLENDID RUSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ruse- HOTEL SPLENDID RUSE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Austria2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Austria2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Travnik- HOTEL VEZIR PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Travnik- HOTEL VEZIR PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oulu- HOTEL RADISSON BLU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oulu- HOTEL RADISSON BLU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mostar- HOTEL EDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mostar- HOTEL EDEN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bijeljina- HOTEL SICO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bijeljina- HOTEL SICO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slovacia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slovacia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polonia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polonia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Republica Ceha2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Republica Ceha2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banja Luka- HOTEL CEZAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banja Luka- HOTEL CEZAR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Germania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Germania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cipru2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cipru2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Neum-  GRAND HOTEL NEUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Neum-  GRAND HOTEL NEUM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elvetia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elvetia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ungaria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ungaria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bruxelles- HOTEL METROPOLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bruxelles- HOTEL METROPOLE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Madrid- HOTEL EMPERADOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Madrid- HOTEL EMPERADOR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finlanda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Finlanda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rijeka- HOTEL JADRAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rijeka- HOTEL JADRAN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Malta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Les Escaldes- HOTEL ROC BLANC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Les Escaldes- HOTEL ROC BLANC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Croatia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Croatia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOTEL GEORG OTS SPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOTEL GEORG OTS SPA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Serbia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Serbia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sion- HOTEL DES VIGNES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sion- HOTEL DES VIGNES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rusia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rusia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Danemarca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Danemarca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Admin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luxemburg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luxemburg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generic-user-icon-4 - Copy (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generic-user-icon-4 - Copy (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shkodër- HOTEL COLOSSEO&amp;SPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shkodër- HOTEL COLOSSEO&amp;SPA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iași- HOTEL RAMADA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iași- HOTEL RAMADA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Innsbruck- HOTEL INNSBRUCK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Innsbruck- HOTEL INNSBRUCK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estonia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Estonia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Võru- HOTEL KUBIJA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Võru- HOTEL KUBIJA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plovdiv- HOTEL MARITZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plovdiv- HOTEL MARITZA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Burgas- HOTEL BURGAS BEACH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Burgas- HOTEL BURGAS BEACH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cazin- HOTEL TAZZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cazin- HOTEL TAZZ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rusia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rusia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suedia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suedia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sandanski- HOTEL INTERHOTEL SANANSKI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sandanski- HOTEL INTERHOTEL SANANSKI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyrenia- HOTEL OSCAR SEAFRONT HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyrenia- HOTEL OSCAR SEAFRONT HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aarhus- HOTEL ROYAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aarhus- HOTEL ROYAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sofia- HOTEL SOFIA NISIPURILE DE AUR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sofia- HOTEL SOFIA NISIPURILE DE AUR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Islanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Islanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lucerna-HOTEL RADISSON BLU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lucerna-HOTEL RADISSON BLU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toledo- HOTEL BEATRIZ TOLEDO AUDITORIUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toledo- HOTEL BEATRIZ TOLEDO AUDITORIUM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moldova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moldova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sillamäe- HOTEL KRUK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sillamäe- HOTEL KRUK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Malta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Malta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dokovo- HOTEL DAKOVO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dokovo- HOTEL DAKOVO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Croatia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Croatia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Republica Ceha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Republica Ceha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Serbia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Serbia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Graz- HOTEL RAMADA GRAZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Graz- HOTEL RAMADA GRAZ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="București- HOTEL ATHENEE PALACE HILTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\București- HOTEL ATHENEE PALACE HILTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vigo- HOTEL ZENIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vigo- HOTEL ZENIT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sighișoara- HOTEL SIGHISOARA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sighișoara- HOTEL SIGHISOARA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slovenia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slovenia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bulgaria2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bulgaria2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sibiu- HOTEL HILTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sibiu- HOTEL HILTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Austria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Austria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rovaniemi - HOTEL ARCTIC LIGHT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rovaniemi - HOTEL ARCTIC LIGHT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tirana- HOTEL DINASTY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tirana- HOTEL DINASTY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Belgia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Belgia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Durrës- HOTEL PALACE SPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Durrës- HOTEL PALACE SPA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copenhaga- HOTEL GRAND HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copenhaga- HOTEL GRAND HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brașov- HOTEL AMBIENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brașov- HOTEL AMBIENT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bihać- HOTEL SAFIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bihać- HOTEL SAFIR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Goražde- HOTEL BEHAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Goražde- HOTEL BEHAR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lugano- HOTEL SPLENDIDE ROYAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lugano- HOTEL SPLENDIDE ROYAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bulgaria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bulgaria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Salzburg- HOTEL AUSTRIA TREND SALZBURG WEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Salzburg- HOTEL AUSTRIA TREND SALZBURG WEST.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spania2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spania2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Danemarca2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Danemarca2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Odense- HOTEL MILLING PLAZA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Odense- HOTEL MILLING PLAZA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cipru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cipru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sevilla- HOTEL SILKEN AL-ANDALUZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sevilla- HOTEL SILKEN AL-ANDALUZ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Romania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Romania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rezervare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rezervare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Italia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Italia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bifa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bifa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vatican" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vatican.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Viena- HOTEL AUSTRIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Viena- HOTEL AUSTRIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Islanda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Islanda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Albania2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Albania2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minsk- HOTEL BELARUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minsk- HOTEL BELARUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liège- HOTEL PREMIERE CLASSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liège- HOTEL PREMIERE CLASSE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luxemburg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luxemburg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ayia Napa- HOTEL ASTERIAS BEACH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ayia Napa- HOTEL ASTERIAS BEACH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lausanne- HOTEL DE LA PAIX LAUSANNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lausanne- HOTEL DE LA PAIX LAUSANNE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Turku- HOTEL KUPITTA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turku- HOTEL KUPITTA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cluj-Napoca- WEST CITY HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cluj-Napoca- WEST CITY HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Varna- HOTEL GRAND HOTEL VARNA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Varna- HOTEL GRAND HOTEL VARNA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brest- HOTEL BELARUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brest- HOTEL BELARUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="St. Moritz- HOTEL KULM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\St. Moritz- HOTEL KULM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tallinn- HOTEL IMPERIAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tallinn- HOTEL IMPERIAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tartu- HOTEL DORPAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tartu- HOTEL DORPAT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slovenia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slovenia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rovinj- HOTEL GRAND PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rovinj- HOTEL GRAND PARK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="San Marino2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\San Marino2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Belarus2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Belarus2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Andorra2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Andorra2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Letonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dubrovnik- HOTEL DUBROVNIK PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dubrovnik- HOTEL DUBROVNIK PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Portugalia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portugalia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Franta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Franta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zaragoza- HOTEL HIBERUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zaragoza- HOTEL HIBERUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dinant- HOTEL MERVEILLEUSE BY INFINITI RESORTS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dinant- HOTEL MERVEILLEUSE BY INFINITI RESORTS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cordoba- HOTEL CORDOBA CENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cordoba- HOTEL CORDOBA CENTER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gent- HOTEL GRAVENSTEEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gent- HOTEL GRAVENSTEEN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Letonia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letonia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Albania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Albania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Karlovak- HOTEL EUROPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Karlovak- HOTEL EUROPA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berat- HOTEL COLOMBO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berat- HOTEL COLOMBO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liechtenstein2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liechtenstein2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ungaria2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ungaria2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saranda- HOTEL SARANDA PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saranda- HOTEL SARANDA PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ucraina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ucraina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Canillo- HOTEL MAGIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Canillo- HOTEL MAGIC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Regatul Unit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Regatul Unit2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zenica- HOTEL ZENICA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zenica- HOTEL ZENICA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berna- HOTEL KURSAAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berna- HOTEL KURSAAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Norvegia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Norvegia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pogradec- HOTEL POGRADECI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pogradec- HOTEL POGRADECI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stara Zagora- HOTEL UNIQATO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stara Zagora- HOTEL UNIQATO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sarajevo- HOTEL EUROPE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sarajevo- HOTEL EUROPE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zürich- HOTEL BRISTOL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zürich- HOTEL BRISTOL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bilbao- HOTEL OCCIDENTAL BILBAO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bilbao- HOTEL OCCIDENTAL BILBAO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Romania2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Romania2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Irlanda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Irlanda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monaco2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monaco2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Muntenegru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Muntenegru.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreareCont" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CreareCont.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grecia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grecia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Makarska- HOTEL METEOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Makarska- HOTEL METEOR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Craiova- HOTEL EMMA WEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Craiova- HOTEL EMMA WEST.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Esbjerg- HOTEL ANSGAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Esbjerg- HOTEL ANSGAR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kosovo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kosovo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suceava- HOTEL CONTINENTAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suceava- HOTEL CONTINENTAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Macedonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Macedonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estonia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Estonia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bosnia si Hertegovina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosnia si Hertegovina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liechtenstein" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liechtenstein.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Norvegia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Norvegia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="El Serrat- HOTEL NIUNIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\El Serrat- HOTEL NIUNIT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alba-Iulia- HOTEL MARISS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alba-Iulia- HOTEL MARISS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Limassol- HOTEL ELIAS BEACH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Limassol- HOTEL ELIAS BEACH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mérida- HOTEL TRYP MEDEA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mérida- HOTEL TRYP MEDEA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mahilyow- HOTEL ATRIUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mahilyow- HOTEL ATRIUM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="San Marino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\San Marino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kosovo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kosovo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Franta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Franta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Finlanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Finlanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Šibenik- HOTEL NIKO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Šibenik- HOTEL NIKO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anvers- HOTEL ANTWERP NATIONAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Anvers- HOTEL ANTWERP NATIONAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moldova2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moldova2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zadar- HOTEL ZADAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zadar- HOTEL ZADAR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Andorra la Vella- HOTEL PANORAMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Andorra la Vella- HOTEL PANORAMA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Olanda2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Olanda2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oradea- HOTEL DUBLETREE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oradea- HOTEL DUBLETREE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Belgia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Belgia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Belarus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Belarus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rakvere- AQVA HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rakvere- AQVA HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Narva- HOTEL NARVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Narva- HOTEL NARVA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Macedonia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Macedonia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Split- HOTEL SPLIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Split- HOTEL SPLIT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOTEL W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOTEL W.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Muntenegru2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Muntenegru2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Constanța- AQVATONIC HOTEL - STEAUA DE MARE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Constanța- AQVATONIC HOTEL - STEAUA DE MARE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOTEL TIMISOARA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOTEL TIMISOARA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aalborg- HOTEL FIRST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aalborg- HOTEL FIRST.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Helsinki- HOTEL ARTHUR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Helsinki- HOTEL ARTHUR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nicosia-Hotel Crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nicosia-Hotel Crown.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lida- HOTEL EKVATOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lida- HOTEL EKVATOR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20171017083023.jpg.800x600_q85_crop-center" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20171017083023.jpg.800x600_q85_crop-center.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Andorra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Andorra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Olanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Olanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valencia- HOTEL VALENCIA CENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Valencia- HOTEL VALENCIA CENTER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ucraina2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ucraina2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Murcia- HOTEL CELIA MAR MENOR GOLF &amp; SPA RESORT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Murcia- HOTEL CELIA MAR MENOR GOLF &amp; SPA RESORT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vitebsk- HOTEL LUCHESA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vitebsk- HOTEL LUCHESA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linz- HOTEL SCHILLERPARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Linz- HOTEL SCHILLERPARK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vlora- HOTEL LIRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vlora- HOTEL LIRO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logare.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="San Sebastian_HOTEL ARIMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\San Sebastian_HOTEL ARIMA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lituania" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lituania.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Slovacia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slovacia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Germania2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Germania2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Basel- HOTEL IBIS BUDGET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Basel- HOTEL IBIS BUDGET.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Omiš- HOTEL HILDEGARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Omiš- HOTEL HILDEGARD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asenovgrad- HOTEL SANI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asenovgrad- HOTEL SANI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elvetia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elvetia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lituania2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lituania2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bosnia si Hertegovina2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosnia si Hertegovina2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spania1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spania1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Portugalia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Portugalia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tampere- HOTEL CUMULUS TEMPERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tampere- HOTEL CUMULUS TEMPERE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Italia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Italia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monaco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monaco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Geneva- HOTEL NOVOTEL CENTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Geneva- HOTEL NOVOTEL CENTRE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Davos- HOTEL CLUB DAVOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Davos- HOTEL CLUB DAVOS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vidin- HOTEL ANNA-KRISTINA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vidin- HOTEL ANNA-KRISTINA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grecia2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grecia2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vatican2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vatican2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bordeaux- HOTEL INTERCONTINENTAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bordeaux- HOTEL INTERCONTINENTAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caen- HOTEL CROCUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Caen- HOTEL CROCUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lyon- HOTEL CARLTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lyon- HOTEL CARLTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Marseille- HOTEL INTERCONTINENTAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Marseille- HOTEL INTERCONTINENTAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Montpellier- HOTEL LE CLOS DE L-AUBE ROUGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Montpellier- HOTEL LE CLOS DE L-AUBE ROUGE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nantes- HOTEL RADISSON BLU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nantes- HOTEL RADISSON BLU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paris-HOTEL PLAZA ATHENEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paris-HOTEL PLAZA ATHENEE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Strasbourg- HOTEL MERCURE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Strasbourg- HOTEL MERCURE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toulouse- HOTEL DE FRANCE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toulouse- HOTEL DE FRANCE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berlin- HOTEL PARK INN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berlin- HOTEL PARK INN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bremen- HOTEL MARITIM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bremen- HOTEL MARITIM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dortmund- HOTEL B&amp;B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dortmund- HOTEL B&amp;B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dresda- HOTEL HILTON DRESDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dresda- HOTEL HILTON DRESDEN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Düsseldorf- HOTEL HILTON DÜSSELDORF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Düsseldorf- HOTEL HILTON DÜSSELDORF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frankfurt pe Main- HOTEL HYATT PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frankfurt pe Main- HOTEL HYATT PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hamburg- HOTEL GRAND ELYSEE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hamburg- HOTEL GRAND ELYSEE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hanovra- HOTEL NOVOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hanovra- HOTEL NOVOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heidelberg- HOTEL PANORAMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Heidelberg- HOTEL PANORAMA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Köln- HOTEL PARK INN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Köln- HOTEL PARK INN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leipzig- HOTEL FURSTENHOF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leipzig- HOTEL FURSTENHOF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lübeck- HOTEL B&amp;B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lübeck- HOTEL B&amp;B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mannheim- HOTEL MERCURE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mannheim- HOTEL MERCURE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="München- HOTEL LEOPOLD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\München- HOTEL LEOPOLD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nürnberg- HOTEL B&amp;B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nürnberg- HOTEL B&amp;B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stuttgart- HOTEL B&amp;B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stuttgart- HOTEL B&amp;B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agios Nikolaos- HOTEL CORAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agios Nikolaos- HOTEL CORAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Atena- HOTEL TITANIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Atena- HOTEL TITANIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corfu- HOTEL SUNSET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corfu- HOTEL SUNSET.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corint- HOTEL MARION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corint- HOTEL MARION.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kavala- HOTEL LUCY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kavala- HOTEL LUCY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Patras- HOTEL PORTO RIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patras- HOTEL PORTO RIO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Salonic- HOTEL ELECTRA PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Salonic- HOTEL ELECTRA PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cork- THE METROPOLE HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cork- THE METROPOLE HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dublin- HOTEL BUSWELLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dublin- HOTEL BUSWELLS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Galway- HOTEL GALMONT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Galway- HOTEL GALMONT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kilkenny- HOTEL KILKENNY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kilkenny- HOTEL KILKENNY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Limerick- HOTEL LIMERICK CITY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Limerick- HOTEL LIMERICK CITY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Londonderry- HOTEL DERRY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Londonderry- HOTEL DERRY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Waterford- HOTEL TREACYS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Waterford- HOTEL TREACYS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grindavik- HOTEL GEO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grindavik- HOTEL GEO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reykjavík- HOTEL CABIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reykjavík- HOTEL CABIN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bari - HOTEL ORIENTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bari - HOTEL ORIENTE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bologna - HOTEL BOLOGNA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bologna - HOTEL BOLOGNA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Catania - HOTEL NETTUNO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Catania - HOTEL NETTUNO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Florența- HOTEL NUOVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Florența- HOTEL NUOVA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genova - HOTEL CONTINENTAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genova - HOTEL CONTINENTAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Milano- HOTEL SEMPIONE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Milano- HOTEL SEMPIONE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Napoli - HOTEL ROMEO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Napoli - HOTEL ROMEO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Palermo - ASTORIA PALACE HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Palermo - ASTORIA PALACE HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Roma- HOTEL CENTRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Roma- HOTEL CENTRO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sicilia - ORTEA PALACE HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sicilia - ORTEA PALACE HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Veneția - HOTEL VENEZIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Veneția - HOTEL VENEZIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mitrovița- HOTEL PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mitrovița- HOTEL PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Priștina-  GRAND HOTEL PRISHTINA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Priștina-  GRAND HOTEL PRISHTINA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prizren- HOTEL CLASSIC PRIZREN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prizren- HOTEL CLASSIC PRIZREN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cēsis- HOTEL CESIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cēsis- HOTEL CESIS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Daugavpils- PARK HOTEL LATGOLA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Daugavpils- PARK HOTEL LATGOLA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liepāja- HOTEL PROMENADE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liepāja- HOTEL PROMENADE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rēzekne- HOTEL KOLONNA REZEKNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rēzekne- HOTEL KOLONNA REZEKNE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Riga- HOTEL WELLTON ELEFANT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Riga- HOTEL WELLTON ELEFANT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liechtenstein- HOTEL TURNA MALBUN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liechtenstein- HOTEL TURNA MALBUN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kaunas- HOTEL BOOK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kaunas- HOTEL BOOK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Klaipėda- HOTEL AMBERTON KLAIPEDA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Klaipėda- HOTEL AMBERTON KLAIPEDA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Šiauliai- HOTEL ŠIAULIAI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Šiauliai- HOTEL ŠIAULIAI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trakay- HOTEL TONYRESORT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trakay- HOTEL TONYRESORT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vilnius- HOTEL PANORAMA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vilnius- HOTEL PANORAMA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diekirch- HOTEL DU PARC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diekirch- HOTEL DU PARC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luxemburg- HOTEL EMPIRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luxemburg- HOTEL EMPIRE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bitola- HOTEL KEOPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bitola- HOTEL KEOPS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ohrida- HOTEL FILIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ohrida- HOTEL FILIP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Prilep- HOTEL ATLAS CITY CENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prilep- HOTEL ATLAS CITY CENTER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skopje- HOTEL MARRIOTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Skopje- HOTEL MARRIOTT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Strumica- HOTEL GLIGOROV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Strumica- HOTEL GLIGOROV.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tetovo- HOTEL TIVOLI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tetovo- HOTEL TIVOLI.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Veles- HOTEL ROMANTIQUE VELES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Veles- HOTEL ROMANTIQUE VELES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Attard- HOTEL CORINTHIA PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Attard- HOTEL CORINTHIA PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="La Saint Julian-s - HOTEL THE ST. GEORGE-S PARK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\La Saint Julian-s - HOTEL THE ST. GEORGE-S PARK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mellieha - HOTEL MELLIEHA BAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mellieha - HOTEL MELLIEHA BAY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Valletta - HOTEL GRAND EXCELSIOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Valletta - HOTEL GRAND EXCELSIOR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bălți- HOTEL LIDOLUX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bălți- HOTEL LIDOLUX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chișinău- HOTEL ARIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chișinău- HOTEL ARIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Soroca- HOTEL CENTRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soroca- HOTEL CENTRAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fontvieille- HOTEL METROPOLE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fontvieille- HOTEL METROPOLE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monaco-Ville- HOTEL DE PARIS-MONTE CARLO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monaco-Ville- HOTEL DE PARIS-MONTE CARLO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monte-Carlo- HOTEL BAY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monte-Carlo- HOTEL BAY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saint Roman- HOTEL PARC SAINT ROMAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Saint Roman- HOTEL PARC SAINT ROMAN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Berane- HOTEL BERANE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Berane- HOTEL BERANE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Budva- HOTEL FALKENSTEINER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Budva- HOTEL FALKENSTEINER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kotor- HOTEL SARA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kotor- HOTEL SARA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nikšić- HOTEL ONOGOST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nikšić- HOTEL ONOGOST.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pljevjla- HOTEL PLJEVJLA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pljevjla- HOTEL PLJEVJLA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Podgorica- HOTEL PODGORICA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Podgorica- HOTEL PODGORICA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tivat- HOTEL REGENT PORTO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tivat- HOTEL REGENT PORTO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ulcinj- HOTEL AMBIENTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ulcinj- HOTEL AMBIENTE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Žabljak- HOTEL ŽABLJAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Žabljak- HOTEL ŽABLJAK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bergen- HOTEL CLARION ADMIRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bergen- HOTEL CLARION ADMIRAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bodø- HOTEL THON NORDLYS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bodø- HOTEL THON NORDLYS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oslo- HOTEL CONTINENTAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oslo- HOTEL CONTINENTAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tromsø- HOTEL CLARION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tromsø- HOTEL CLARION.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amsterdam- HOTEL FLETCHER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amsterdam- HOTEL FLETCHER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arnhem- HOTEL HOLIDAY INN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arnhem- HOTEL HOLIDAY INN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Haga- HOTEL NOVOTEL THE HAGUE WORLD FORUM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Haga- HOTEL NOVOTEL THE HAGUE WORLD FORUM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leeuwarden- HOTEL ORANJE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Leeuwarden- HOTEL ORANJE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maastricht- HOTEL MONASTERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maastricht- HOTEL MONASTERE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rotterdam- HOTEL ART" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rotterdam- HOTEL ART.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Utrecht- HOTEL MITLAND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Utrecht- HOTEL MITLAND.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Białystok- HOTEL CRISTAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Białystok- HOTEL CRISTAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bydgoszcz- HOTEL MARATON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bydgoszcz- HOTEL MARATON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cracovia- HOTEL POLONIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cracovia- HOTEL POLONIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gdańsk- HOTEL FAHRENHEIT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gdańsk- HOTEL FAHRENHEIT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gdynia- HOTEL MERCURE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gdynia- HOTEL MERCURE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Katowice- HOTEL SILESIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Katowice- HOTEL SILESIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Łódź- HOTEL POLONIA PALAST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Łódź- HOTEL POLONIA PALAST.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lublin- HOTEL B&amp;B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lublin- HOTEL B&amp;B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poznań- HOTEL POLONIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poznań- HOTEL POLONIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Szczecin- HOTEL RADISSON BLU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Szczecin- HOTEL RADISSON BLU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toruń- HOTEL POLONIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toruń- HOTEL POLONIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Varşovia- HOTEL POLONIA PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Varşovia- HOTEL POLONIA PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wroclaw- HOTEL POLONIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wroclaw- HOTEL POLONIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zamość- HOTEL KORONNY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zamość- HOTEL KORONNY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Algarve- HOTEL ALGAVRE CASINO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Algarve- HOTEL ALGAVRE CASINO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Braga- HOTEL DO LAGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Braga- HOTEL DO LAGO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elvas- HOTEL VARCHOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elvas- HOTEL VARCHOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lisabona- HOTEL AVENIDA PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lisabona- HOTEL AVENIDA PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Porto- HOTEL TRYP PORTO CENTRO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Porto- HOTEL TRYP PORTO CENTRO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sintra- HOTEL LUXURY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sintra- HOTEL LUXURY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tavira- HOTEL VILA GALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tavira- HOTEL VILA GALE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vila Real- HOTEL MIRA CORGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vila Real- HOTEL MIRA CORGO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Aberdeen- THE STATION HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aberdeen- THE STATION HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Birmingham- HOTEL BRITANNIA BIRMINGHAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Birmingham- HOTEL BRITANNIA BIRMINGHAM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cambridge- HOTEL IBIS CAMBRIDGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cambridge- HOTEL IBIS CAMBRIDGE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dumfries- HOTEL CAIRNDALE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dumfries- HOTEL CAIRNDALE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edinburgh- HOTEL MARRIOTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Edinburgh- HOTEL MARRIOTT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Glasgow- HOTEL INDIGO GLASGOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Glasgow- HOTEL INDIGO GLASGOW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inverness- HOTEL THE ROYAL HIGHLAND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inverness- HOTEL THE ROYAL HIGHLAND.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liverpool- HOTEL DOLBY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liverpool- HOTEL DOLBY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Londra- HOTEL DUBLETREE BY HILTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Londra- HOTEL DUBLETREE BY HILTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Manchester- HOTEL PARK INN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Manchester- HOTEL PARK INN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Norwich- HOTEL EXPRESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Norwich- HOTEL EXPRESS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sheffield- HOTEL HAMPTON BY HILTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sheffield- HOTEL HAMPTON BY HILTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wick- HOTEL NETHERCLIFFE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wick- HOTEL NETHERCLIFFE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brno- HOTEL GRAND HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brno- HOTEL GRAND HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="České Budějovice- HOTEL CLARION CONGRESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\České Budějovice- HOTEL CLARION CONGRESS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Děčín- HOTEL GOLDEN LINDEN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Děčín- HOTEL GOLDEN LINDEN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Karlovy Vary- HOTEL OLIMPIC PALACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Karlovy Vary- HOTEL OLIMPIC PALACE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liberec- HOTEL PRAHA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liberec- HOTEL PRAHA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Olomouc- HOTEL PALAC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Olomouc- HOTEL PALAC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ostrava- HOTEL IMPERIAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ostrava- HOTEL IMPERIAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pardubice- HOTEL HURKA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pardubice- HOTEL HURKA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Plzeň- HOTEL A STORY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Plzeň- HOTEL A STORY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Praga- HOTEL BELVEEDERE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Praga- HOTEL BELVEEDERE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kazan- HOTEL COURTYARD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kazan- HOTEL COURTYARD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moscova- HOTEL BELGRAD HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moscova- HOTEL BELGRAD HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nijni- HOTEL PARK INN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nijni- HOTEL PARK INN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pskov- HOTEL PUSHKIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pskov- HOTEL PUSHKIN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Samara- HOTEL LOTTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Samara- HOTEL LOTTE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Voronej- HOTEL MARRIOTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Voronej- HOTEL MARRIOTT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="San Marino- HOTEL GRAND HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\San Marino- HOTEL GRAND HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="San Marino- VALLARTA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\San Marino- VALLARTA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Belgrad- HOTEL JUGOSLAVIJA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Belgrad- HOTEL JUGOSLAVIJA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novi  Sad- HOTEL PREZIDENT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novi  Sad- HOTEL PREZIDENT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Novi Pazar- HOTEL VRBAK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Novi Pazar- HOTEL VRBAK.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pirot- HOTEL ANA LUX SPA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pirot- HOTEL ANA LUX SPA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Užice- HOTEL ZLATIBOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Užice- HOTEL ZLATIBOR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banská Bystrica- HOTEL LUX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banská Bystrica- HOTEL LUX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bardejov- HOTEL LE MONDE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bardejov- HOTEL LE MONDE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bratislava- HOTEL BRATISLAVA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bratislava- HOTEL BRATISLAVA.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nitra- HOTEL NITRA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nitra- HOTEL NITRA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Piešťany- HOTEL MAGNOLIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Piešťany- HOTEL MAGNOLIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rožňava- HOTEL ARENA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rožňava- HOTEL ARENA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spišská Nová Ves- HOTEL METROPOL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spišská Nová Ves- HOTEL METROPOL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trenčín- HOTEL ELIZABETH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trenčín- HOTEL ELIZABETH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Žilina - HOTEL SLOVAKIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Žilina - HOTEL SLOVAKIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bled-GRAND  HOTEL TOPLICE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bled-GRAND  HOTEL TOPLICE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Celje- HOTEL CELIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Celje- HOTEL CELIA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Izola- HOTEL MARINA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Izola- HOTEL MARINA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kočevje- HOTEL VALENTIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kočevje- HOTEL VALENTIN.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Koper- HOTEL KOPER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Koper- HOTEL KOPER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kranj- HOTEL AZUL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kranj- HOTEL AZUL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ljubljana- M HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ljubljana- M HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Maribor- HOTEL MARIBOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Maribor- HOTEL MARIBOR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ptuj- GRAND HOTEL PRIMUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ptuj- GRAND HOTEL PRIMUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Škofja Loka- HOTEL GARNI PALETA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Škofja Loka- HOTEL GARNI PALETA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Göteborg- HOTEL FIRST G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Göteborg- HOTEL FIRST G.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Jönköping- HOTEL SCANDIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jönköping- HOTEL SCANDIC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skellefteå- HOTEL SCANDIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Skellefteå- HOTEL SCANDIC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stockholm- HOTEL DIPLOMAT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stockholm- HOTEL DIPLOMAT.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cernăuţi- HOTEL BUKOVINA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cernăuţi- HOTEL BUKOVINA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dnipropetrovsk- HOTEL REICARTZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dnipropetrovsk- HOTEL REICARTZ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Harkov- HOTEL OVIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Harkov- HOTEL OVIS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ivano-Frankivsk- HOTEL NADIYA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ivano-Frankivsk- HOTEL NADIYA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kiev- HOTEL FAIRMONT GRAND HOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kiev- HOTEL FAIRMONT GRAND HOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kryvyi Rih- HOTEL KRIVOY ROG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kryvyi Rih- HOTEL KRIVOY ROG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Odesa- HOTEL NEMO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Odesa- HOTEL NEMO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Poltava- HOTEL PREMIER PALAZZO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Poltava- HOTEL PREMIER PALAZZO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sevastopol- HOTEL ADMIRAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sevastopol- HOTEL ADMIRAL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Budapesta- HOTEL DANUBIUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Budapesta- HOTEL DANUBIUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Debrețin- HOTEL MALOM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Debrețin- HOTEL MALOM.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Györ- HOTEL IBIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Györ- HOTEL IBIS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kecskemét- BOUTIQUE HOTEL CENTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kecskemét- BOUTIQUE HOTEL CENTER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miskolc- HOTEL LIDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Miskolc- HOTEL LIDO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pécs- HOTEL AGOSTON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pécs- HOTEL AGOSTON.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Seghedin- HOTEL AURIS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Seghedin- HOTEL AURIS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Székesfehérvár- HOTEL NOVOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Székesfehérvár- HOTEL NOVOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Szombathely- HOTEL PAZIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Szombathely- HOTEL PAZIO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Zalaegerszeg- HOTEL ARANY BARANY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zalaegerszeg- HOTEL ARANY BARANY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vatican- HOTEL TRIANON PIO APARTHOTEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Vatican- HOTEL TRIANON PIO APARTHOTEL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
