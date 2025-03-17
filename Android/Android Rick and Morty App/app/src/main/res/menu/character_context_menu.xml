@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_view_details"
+        android:title="View Details"
+        android:icon="@drawable/show_details_icon"
+        android:iconTint="@color/white"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_change_background"
+        android:title="Change Background"
+        app:actionLayout="@layout/activity_character_list"
+        android:icon="@drawable/change_background_icon"
+        android:iconTint="@color/white"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon App</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./jsFiles/index.js"></script>
+    <link rel="stylesheet" href="./cssFiles/index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <!--cerinta a (Animatia initiala)-->
+    <div id="loading-screen-gif">
+        <img src="./images/pokemon1.gif" alt="Loading Pokemon Animation">
+    </div>
+
+    <!--cerinta b1 (Cautare Pokemon)-->
+    <div id="search-container" style="display: none;">
+        <div id="search-elements">
+            <label for="pokemon-type">Tip Pokemon</label>
+            <input type="text" id="pokemon-type" placeholder="Introduceți tipul">
+        </div>
+
+        <!--cerinta b2-->
+        <button id="search-button"> <strong>Caută</strong></button>
+
+        <!-- cerinta e (Animatie la apasarea butonului de cautare)-->
+        <div id="loading-animation">
+            <img src="./images/loading.gif" alt="Loading" />
+            <span>Se procesează...</span>
+        </div>
+
+        <!-- cerinta d1 (Daca input-ul contine ceva, filtrare dupa input) -->
+        <div id="results-panel" style="display: none;">
+            <button id="close-button">X</button>
+            <h2>Rezultate Căutare:</h2>
+            <div id="pokemon-list" class="pokemon-grid"></div>
+        </div>
+    </div>
+
+    <!-- cerinta d2 (Daca input-ul e gol) -->
+    <div id="empty-field" style="display: none;">
+        <div id="alert-empty-field">
+            <p>Vă rugăm să completați câmpul de input cu un tip de Pokemon.</p>
+            <button id="cancel-button">Cancel</button>
+            <button id="random-button">Afișare random</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_sign_out"
+        android:title="Sign Out"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/filter_all"
+        android:title="All"
+        app:showAsAction="never"
+        android:checked="true"/>
+    <item
+        android:id="@+id/filter_human"
+        android:title="Human"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_alien"
+        android:title="Alien"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_robot"
+        android:title="Robot"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_animal"
+        android:title="Animal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filter_disease"
+        android:title="Disease"
+        app:showAsAction="never" />
+
+</menu>

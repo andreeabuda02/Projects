@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RickAndMortyAppCologviu</string>
+    <string name="loginFail">Login failed.
+        Username or password is incorrect!
+    </string>
+    <string name="loginSucces">"Login successful!"</string>
+
+    <string name="error_username_empty">Username cannot be empty!</string>
+    <string name="error_username_short">Username must be at least 3 characters!</string>
+    <string name="error_password_empty">Password cannot be empty!</string>
+    <string name="error_password_short">Password must be at least 3 characters!</string>
+    <string name="error_invalid_password_format">Invalid password format!</string>
+    <string name="error_invalid_credentials">Invalid username or password!</string>
+    <string name="error_character_not_found">Character not found!</string>
+    <string name="error_general">Error: %1$s</string>
+    <string name="success_login">Login successful!</string>
+    <string name="options_menu">Options Menu</string>
+    <string name="menu_sign_out_confirmation">Are you sure you want to sign out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="page_views">Page views: %1$d</string>
+</resources>

@@ -1,0 +1,1 @@
+INSERT INTO user_table VALUES('17e4cd3f-1838-41ed-a6e2-48d39d61fcd2', 'budaandreea@gmail.com', 'Andreea', 'Andreea.1234', 'admin')

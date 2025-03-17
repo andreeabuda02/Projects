@@ -1,0 +1,12 @@
+tls:
+  certificates:
+    - certFile: /etc/traefik/certs/frontend.localhost.crt
+      keyFile: /etc/traefik/certs/frontend.localhost.key
+      stores:
+        - default
+
+  stores:
+    default:
+      defaultCertificate:
+        certFile: /etc/traefik/certs/localhost.crt
+        keyFile: /etc/traefik/certs/localhost.key

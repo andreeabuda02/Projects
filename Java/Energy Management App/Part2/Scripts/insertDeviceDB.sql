@@ -1,0 +1,1 @@
+INSERT INTO user_device_mapping VALUES('17e4cd3f-1838-41ed-a6e2-48d39d61fcd2')
